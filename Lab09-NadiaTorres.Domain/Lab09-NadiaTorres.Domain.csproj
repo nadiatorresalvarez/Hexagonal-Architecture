@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Lab09-NadiaTorres.Application\Lab09-NadiaTorres.Application.csproj" />
+    </ItemGroup>
+
 </Project>

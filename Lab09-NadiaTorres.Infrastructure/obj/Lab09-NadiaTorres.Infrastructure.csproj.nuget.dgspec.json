@@ -4,14 +4,14 @@
     "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj": {
+    "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj",
-        "projectName": "Lab09-NadiaTorres.Infrastructure",
-        "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj",
+        "projectUniqueName": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj",
+        "projectName": "Lab09-NadiaTorres.Application",
+        "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj",
         "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-        "outputPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\obj\\",
+        "outputPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +43,144 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\Lab09-NadiaTorres.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\Lab09-NadiaTorres.Domain.csproj",
+        "projectName": "Lab09-NadiaTorres.Domain",
+        "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\Lab09-NadiaTorres.Domain.csproj",
+        "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
+        "outputPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj": {
+                "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj",
+        "projectName": "Lab09-NadiaTorres.Infrastructure",
+        "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\Lab09-NadiaTorres.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
+        "outputPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj": {
+                "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Application\\Lab09-NadiaTorres.Application.csproj"
+              },
+              "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\Lab09-NadiaTorres.Domain.csproj": {
+                "projectPath": "D:\\tecsup\\6to\\desarrolloAppEmpresariales\\Lab09-NadiaTorres\\Lab09-NadiaTorres.Domain\\Lab09-NadiaTorres.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -56,9 +193,25 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
